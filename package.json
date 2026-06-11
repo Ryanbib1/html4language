@@ -1,0 +1,29 @@
+{
+  "name": "autocoder-ai-app-builder-landing",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "framer-motion": "12.40.0",
+    "lucide-react": "1.17.0",
+    "next": "16.2.9",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "overrides": {
+    "postcss": "8.5.15"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.0",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "lightningcss-darwin-arm64": "^1.32.0",
+    "tailwindcss": "4.3.0",
+    "typescript": "6.0.3"
+  }
+}

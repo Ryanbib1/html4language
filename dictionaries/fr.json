@@ -1,0 +1,245 @@
+{
+  "meta": {
+    "title": "AutoCoder ai app builder pour équipes produit",
+    "description": "AutoCoder est un ai app builder qui transforme des idées en langage naturel en applications web prêtes pour la production avec React, Next.js, Tailwind CSS et un déploiement en un clic."
+  },
+  "header": {
+    "nav": [
+      { "label": "Fonctions", "href": "#features" },
+      { "label": "Workflow", "href": "#workflow" },
+      { "label": "Templates", "href": "templates" },
+      { "label": "Blog", "href": "blog" },
+      { "label": "Plans", "href": "#plans" }
+    ],
+    "cta": "Commencer",
+    "languageLabel": "Langue",
+    "menuOpen": "Ouvrir le menu",
+    "menuClose": "Fermer le menu"
+  },
+  "hero": {
+    "eyebrow": "AutoCoder pour équipes produit rapides",
+    "title": "Le ai app builder ultime pour apps web prêtes pour la production",
+    "highlight": "ai app builder",
+    "subtitle": "Décrivez le produit voulu. AutoCoder planifie le stack, écrit l'interface React, connecte la logique backend et prépare une application déployable en quelques minutes.",
+    "primaryCta": "Démarrer gratuitement",
+    "secondaryCta": "Voir la documentation",
+    "visualTitle": "Session de génération AutoCoder",
+    "promptLabel": "Prompt",
+    "prompt": "Crée un tableau de bord analytique multilingue avec authentification, facturation, graphiques et panneau admin.",
+    "status": "Génération d'app de production",
+    "files": ["app/[lang]/page.tsx", "components/dashboard.tsx", "prisma/schema.prisma", "api/billing/route.ts"],
+    "codeLines": [
+      "const app = await AutoCoder.generate({",
+      "  framework: 'Next.js App Router',",
+      "  ui: 'Tailwind + motifs shadcn',",
+      "  auth: 'JWT + RBAC',",
+      "  deploy: 'lancement cloud en un clic'",
+      "});"
+    ],
+    "metrics": [
+      { "value": "4.8x", "label": "prototypage plus rapide" },
+      { "value": "92%", "label": "moins de boilerplate" },
+      { "value": "1 clic", "label": "pour déployer" }
+    ]
+  },
+  "socialProof": {
+    "label": "Conçu pour fondateurs, agences, opérateurs et développeurs qui lancent avec l'IA",
+    "logos": ["AI Team", "Workspace", "Templates", "SparkVibe", "Déploiement en un clic"]
+  },
+  "trustSignals": {
+    "items": [
+      { "title": "AI Team", "description": "Assistance produit, architecture et ingénierie dans un seul workflow ai app builder." },
+      { "title": "Code exportable", "description": "Construisez avec l'IA puis gardez le contrôle via export du code source et handoff développeur." },
+      { "title": "Deploy et hosting", "description": "Publiez vers une URL active, connectez un domaine personnalisé et gérez vos projets dans Workspace." }
+    ]
+  },
+  "features": {
+    "eyebrow": "Intelligence de création",
+    "heading": "Tout ce qu'un ai app builder moderne exige pour livrer du vrai logiciel",
+    "description": "AutoCoder combine raisonnement produit, génération full-stack et automatisation du déploiement afin de passer de l'idée à l'app validée sans perdre le contrôle technique.",
+    "items": [
+      {
+        "icon": "code",
+        "title": "Langage naturel vers code",
+        "description": "Transformez des exigences simples en composants React typés, pages App Router, routes API et états d'interface soignés."
+      },
+      {
+        "icon": "deploy",
+        "title": "Déploiement en un clic",
+        "description": "Prévisualisez, validez et lancez avec configuration prête, aide aux environnements et contrôles de production."
+      },
+      {
+        "icon": "stack",
+        "title": "Génération full-stack",
+        "description": "Générez frontend, backend, schéma de base de données, authentification et modèles RBAC cohérents depuis un seul brief."
+      },
+      {
+        "icon": "language",
+        "title": "Sortie multilingue",
+        "description": "Créez des expériences localisées avec copy en dictionnaires, changement de langue par route et structure i18n évolutive."
+      }
+    ]
+  },
+  "howItWorks": {
+    "eyebrow": "De l'idée au lancement",
+    "heading": "Comment fonctionne le ai app builder d'AutoCoder",
+    "description": "Un workflow concentré vous garde aux commandes pendant que l'IA traite l'architecture répétitive, le boilerplate et les intégrations.",
+    "steps": [
+      {
+        "title": "Décrivez votre idée",
+        "description": "Rédigez un brief, une liste de fonctions ou un workflow. AutoCoder extrait l'intention, les rôles utilisateur et les besoins de données."
+      },
+      {
+        "title": "L'IA génère le stack",
+        "description": "Le ai app builder crée routes Next.js, composants React, styles Tailwind, logique backend et structure de données."
+      },
+      {
+        "title": "Déployez instantanément",
+        "description": "Relisez l'app générée, ajustez le texte ou la logique et publiez une build prête pour la production via un flux guidé."
+      }
+    ]
+  },
+  "templates": {
+    "eyebrow": "Templates prêts à remixer",
+    "heading": "Démarrez votre projet ai app builder depuis un modèle produit éprouvé",
+    "description": "Utilisez des templates comme points de départ pour sites, dashboards, outils internes et apps full-stack, puis personnalisez avec le langage naturel.",
+    "cta": "Explorer les templates",
+    "items": [
+      {
+        "title": "Dashboard analytique SaaS",
+        "description": "Authentification, métriques, graphiques, écrans de facturation et workflows admin pour un produit par abonnement.",
+        "tags": ["Dashboard", "Facturation", "Admin"]
+      },
+      {
+        "title": "Outil interne d'opérations",
+        "description": "Un workspace sécurisé pour gérer validations, enregistrements, tâches et workflows client.",
+        "tags": ["Interne", "RBAC", "Données"]
+      },
+      {
+        "title": "Portail client avec IA",
+        "description": "Une app utilisateur avec onboarding, assistance IA, contenu d'aide et UX prête au déploiement.",
+        "tags": ["Portail", "IA", "Deploy"]
+      }
+    ]
+  },
+  "comparison": {
+    "eyebrow": "Pourquoi AutoCoder",
+    "heading": "Plus qu'un chat IA générique, plus rapide que le no-code traditionnel",
+    "description": "AutoCoder combine création par prompt, structure produit, architecture d'app, hosting et export pour transformer une idée en vrai logiciel.",
+    "columns": [
+      {
+        "title": "Chat IA générique",
+        "description": "Utile pour des extraits, mais vous assemblez encore routes, états UI, modèles de données, déploiement et finition produit."
+      },
+      {
+        "title": "No-code traditionnel",
+        "description": "Efficace pour des flux fixes, mais les apps complexes rencontrent vite des limites de layout, logique, base de données et code."
+      },
+      {
+        "title": "AutoCoder ai app builder",
+        "description": "Décrivez le résultat, générez la structure full-stack, prévisualisez l'app, déployez et exportez le code si nécessaire."
+      }
+    ]
+  },
+  "plans": {
+    "eyebrow": "Plans et crédits",
+    "heading": "Commencez gratuitement puis faites évoluer votre workflow ai app builder",
+    "description": "AutoCoder propose des parcours gratuits et payants avec crédits pour builds, publication et itération. Choisissez selon votre stade.",
+    "cta": "Voir les plans officiels",
+    "items": [
+      {
+        "title": "Essai gratuit",
+        "description": "Explorez prompts, génération d'apps, aperçus, templates et premiers workflows produit avant de vous engager.",
+        "features": ["Tester le builder", "Prévisualiser les apps", "Utiliser des templates"]
+      },
+      {
+        "title": "Builder",
+        "description": "Pour fondateurs et makers transformant des prompts en apps, landing pages, dashboards et workflows déployables.",
+        "features": ["Plus de crédits", "Deploy et hosting", "Exporter le code"]
+      },
+      {
+        "title": "Workspace d'équipe",
+        "description": "Pour agences et équipes produit qui gèrent plusieurs apps, clients, domaines et itérations.",
+        "features": ["Workspace central", "Historique projets", "Domaines personnalisés"]
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "heading": "Questions sur AutoCoder comme ai app builder",
+    "items": [
+      {
+        "question": "Que puis-je créer avec AutoCoder ?",
+        "answer": "Vous pouvez créer sites web, apps web, dashboards, outils internes, portails clients et autres produits prêts pour la production à partir de prompts."
+      },
+      {
+        "question": "Dois-je savoir coder ?",
+        "answer": "Non. AutoCoder est conçu pour fondateurs, opérateurs et développeurs qui veulent des workflows guidés par IA avec contrôle technique si besoin."
+      },
+      {
+        "question": "Puis-je déployer et héberger mon projet ?",
+        "answer": "Oui. AutoCoder permet de publier vers des URLs actives, gérer deploy et hosting, connecter des domaines personnalisés et organiser les projets dans Workspace."
+      },
+      {
+        "question": "Puis-je exporter le code source ?",
+        "answer": "Oui. La documentation AutoCoder décrit l'export de code source pour intégrer les builds IA dans votre workflow d'ingénierie."
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Construisez pendant que l'idée est nette",
+    "heading": "Commencez avec le ai app builder conçu pour une vraie vélocité produit",
+    "description": "AutoCoder aide fondateurs, agences et équipes internes à transformer des prompts ambitieux en apps planifiées, implémentées et prêtes pour les utilisateurs.",
+    "primaryCta": "Commencer",
+    "secondaryCta": "Voir la démo"
+  },
+  "footer": {
+    "tagline": "AutoCoder transforme les idées en apps prêtes pour la production avec un workflow ai app builder pensé pour les développeurs.",
+    "columns": [
+      {
+        "title": "Produit",
+        "links": [
+          { "label": "AI builder", "href": "home" },
+          { "label": "Déploiements", "href": "home" },
+          { "label": "Templates", "href": "templates" },
+          { "label": "Intégrations", "href": "home" }
+        ]
+      },
+      {
+        "title": "Ressources",
+        "links": [
+          { "label": "Documentation", "href": "docs" },
+          { "label": "Guide API", "href": "docs" },
+          { "label": "Blog", "href": "blog" },
+          { "label": "Changelog", "href": "blog" }
+        ]
+      },
+      {
+        "title": "Entreprise",
+        "links": [
+          { "label": "À propos", "href": "home" },
+          { "label": "Carrières", "href": "home" },
+          { "label": "Clients", "href": "home" },
+          { "label": "Contact", "href": "home" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Confidentialité", "href": "home" },
+          { "label": "Conditions", "href": "home" },
+          { "label": "Sécurité", "href": "home" },
+          { "label": "DPA", "href": "home" }
+        ]
+      }
+    ],
+    "social": {
+      "title": "Suivre AutoCoder",
+      "links": [
+        { "label": "Instagram", "href": "instagram" },
+        { "label": "X", "href": "x" }
+      ]
+    },
+    "copyright": "© 2026 AutoCoder. Tous droits réservés."
+  }
+}
