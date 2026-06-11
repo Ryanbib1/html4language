@@ -22,7 +22,6 @@
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "lightningcss-darwin-arm64": "^1.32.0",
     "tailwindcss": "4.3.0",
     "typescript": "6.0.3"
   }
