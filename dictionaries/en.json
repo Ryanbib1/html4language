@@ -124,10 +124,29 @@
   },
   "blogFeature": {
     "eyebrow": "From the AutoCoder blog",
-    "heading": "See how an ai app builder creates a food truck CRM and mobile POS workflow",
-    "description": "This case study shows AutoCoder turning a food service operations idea into a practical CRM, inventory, queue, and point-of-sale experience for mobile teams.",
+    "heading": "Real products launched with the AutoCoder ai app builder",
+    "description": "Explore concise build stories across food service, live events, and outdoor hospitality, each showing how an idea becomes a polished app experience.",
     "cta": "Read the case study",
-    "imageAlt": "Food truck CRM case study built with AutoCoder"
+    "items": [
+      {
+        "category": "Food service",
+        "title": "Food truck CRM and mobile POS",
+        "description": "A practical CRM, inventory, queue, and point-of-sale workflow for mobile food teams.",
+        "imageAlt": "Food truck CRM case study built with AutoCoder"
+      },
+      {
+        "category": "Live events",
+        "title": "Match night booking system",
+        "description": "A booking and operations flow for sports bars, trivia nights, and high-demand venue experiences.",
+        "imageAlt": "Match night booking system case study built with AutoCoder"
+      },
+      {
+        "category": "Hospitality",
+        "title": "Campsite multi-role booking app",
+        "description": "A bookable camping experience with guest discovery, role-aware operations, and mobile-first UX.",
+        "imageAlt": "Campsite multi-role booking app case study built with AutoCoder"
+      }
+    ]
   },
   "comparison": {
     "eyebrow": "Why AutoCoder",
