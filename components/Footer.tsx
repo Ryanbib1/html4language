@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { getAutoCoderHref, type Dictionary, type Locale } from "@/lib/i18n";
 
@@ -15,7 +14,7 @@ export function Footer({ lang, copy }: FooterProps) {
     <footer className="border-t border-[color:var(--line)] bg-white">
       <div className="section-shell grid gap-10 py-12 lg:grid-cols-[1.2fr_2fr]">
         <div>
-          <Link href={`/${lang}`} className="flex items-center text-[color:var(--ink)]" aria-label="AutoCoder home">
+          <div className="flex items-center text-[color:var(--ink)]" aria-label="AutoCoder">
             <span className="brand-logo-shell flex h-12 items-center gap-3 rounded-[8px] border border-[color:var(--mint-line)] px-3 pr-4">
               <span className="grid size-9 place-items-center rounded-[8px] bg-[color:var(--mint-soft)]">
                 <Image
@@ -28,7 +27,7 @@ export function Footer({ lang, copy }: FooterProps) {
               </span>
               <span className="text-lg font-black tracking-normal text-[color:var(--ink)]">AutoCoder.cc</span>
             </span>
-          </Link>
+          </div>
           <p className="text-pretty mt-5 max-w-sm leading-7 text-[color:var(--muted)]">{copy.tagline}</p>
           <div className="mt-6">
             <h2 className="text-sm font-black text-[color:var(--ink)]">{copy.social.title}</h2>

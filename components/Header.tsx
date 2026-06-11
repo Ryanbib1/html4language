@@ -46,8 +46,8 @@ export function Header({ lang, copy }: HeaderProps) {
   return (
     <header className="sticky top-0 z-50 border-b border-[color:var(--line)] bg-[rgba(247,251,246,0.88)] backdrop-blur-xl">
       <div className="section-shell flex h-20 items-center justify-between gap-4">
-        <Link href={`/${lang}`} className="group flex items-center text-[color:var(--ink)]" aria-label="AutoCoder home">
-          <span className="brand-logo-shell flex h-12 items-center gap-3 rounded-[8px] border border-[color:var(--mint-line)] px-3 pr-4 transition-transform duration-300 group-hover:-translate-y-0.5">
+        <div className="flex items-center text-[color:var(--ink)]" aria-label="AutoCoder">
+          <span className="brand-logo-shell flex h-12 items-center gap-3 rounded-[8px] border border-[color:var(--mint-line)] px-3 pr-4">
             <span className="grid size-9 place-items-center rounded-[8px] bg-[color:var(--mint-soft)]">
               <Image
                 src={logoIconSrc}
@@ -60,7 +60,7 @@ export function Header({ lang, copy }: HeaderProps) {
             </span>
             <span className="text-lg font-black tracking-normal text-[color:var(--ink)]">AutoCoder.cc</span>
           </span>
-        </Link>
+        </div>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-[color:var(--muted)] lg:flex">
           {navItems.map((item) => (
