@@ -122,6 +122,13 @@
       }
     ]
   },
+  "blogFeature": {
+    "eyebrow": "Depuis le blog AutoCoder",
+    "heading": "Découvrez comment un ai app builder crée un CRM food truck et un parcours POS mobile",
+    "description": "Cette étude de cas montre comment AutoCoder transforme une idée d'opérations food service en expérience CRM, inventaire, file d'attente et point de vente pour des équipes mobiles.",
+    "cta": "Lire l'étude de cas",
+    "imageAlt": "Étude de cas CRM food truck créée avec AutoCoder"
+  },
   "comparison": {
     "eyebrow": "Pourquoi AutoCoder",
     "heading": "Plus qu'un chat IA générique, plus rapide que le no-code traditionnel",

@@ -122,6 +122,13 @@
       }
     ]
   },
+  "blogFeature": {
+    "eyebrow": "From the AutoCoder blog",
+    "heading": "See how an ai app builder creates a food truck CRM and mobile POS workflow",
+    "description": "This case study shows AutoCoder turning a food service operations idea into a practical CRM, inventory, queue, and point-of-sale experience for mobile teams.",
+    "cta": "Read the case study",
+    "imageAlt": "Food truck CRM case study built with AutoCoder"
+  },
   "comparison": {
     "eyebrow": "Why AutoCoder",
     "heading": "More than generic AI chat, faster than traditional no-code",

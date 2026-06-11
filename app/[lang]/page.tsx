@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { BlogFeature } from "@/components/BlogFeature";
 import { ComparisonSection } from "@/components/ComparisonSection";
 import { FAQ } from "@/components/FAQ";
 import { FeaturesGrid } from "@/components/FeaturesGrid";
@@ -63,6 +64,7 @@ export default async function LandingPage({ params }: PageProps) {
         <TrustSignals copy={dictionary.trustSignals} />
         <FeaturesGrid copy={dictionary.features} />
         <TemplateShowcase lang={lang as Locale} copy={dictionary.templates} />
+        <BlogFeature copy={dictionary.blogFeature} />
         <HowItWorks copy={dictionary.howItWorks} />
         <ComparisonSection copy={dictionary.comparison} />
         <PlansPreview lang={lang as Locale} copy={dictionary.plans} />
