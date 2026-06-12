@@ -38,6 +38,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: dictionary.meta.title,
     description: dictionary.meta.description,
+    openGraph: {
+      title: dictionary.meta.title,
+      description: dictionary.meta.description,
+      url: `https://www.autocoder.cc/${lang}/`,
+      siteName: "AutoCoder",
+      type: "website",
+      locale: lang
+    },
+    twitter: {
+      card: "summary",
+      title: dictionary.meta.title,
+      description: dictionary.meta.description
+    },
     alternates: {
       canonical: `/${lang}`,
       languages: Object.fromEntries(locales.map((locale) => [locale, `/${locale}`]))
@@ -61,8 +74,8 @@ export default async function LandingPage({ params }: PageProps) {
       <main>
         <Hero lang={lang as Locale} copy={dictionary.hero} />
         <SocialProof copy={dictionary.socialProof} />
-        <TrustSignals copy={dictionary.trustSignals} />
-        <FeaturesGrid copy={dictionary.features} />
+        <TrustSignals lang={lang as Locale} copy={dictionary.trustSignals} />
+        <FeaturesGrid lang={lang as Locale} copy={dictionary.features} />
         <TemplateShowcase lang={lang as Locale} copy={dictionary.templates} />
         <BlogFeature copy={dictionary.blogFeature} />
         <HowItWorks copy={dictionary.howItWorks} />

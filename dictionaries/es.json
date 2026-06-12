@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "AutoCoder ai app builder para equipos de producto",
-    "description": "AutoCoder es un ai app builder que convierte ideas en lenguaje natural en aplicaciones web listas para producción con React, Next.js, Tailwind CSS y despliegue en un clic."
+    "title": "AutoCoder | constructor de apps con IA para equipos de producto",
+    "description": "AutoCoder es un constructor de apps con IA que convierte ideas en lenguaje natural en aplicaciones web listas para producción con React, Next.js, Tailwind CSS y despliegue en un clic."
   },
   "header": {
     "nav": [
@@ -18,22 +18,22 @@
   },
   "hero": {
     "eyebrow": "AutoCoder para equipos de producto veloces",
-    "title": "El ai app builder definitivo para apps web listas para producción",
-    "highlight": "ai app builder",
-    "subtitle": "Describe el producto que quieres. AutoCoder planifica el stack, escribe la interfaz en React, conecta la lógica de backend y prepara una app desplegable en minutos.",
+    "title": "El constructor de apps con IA definitivo para apps web listas para producción",
+    "highlight": "constructor de apps con IA",
+    "subtitle": "Describe el producto que quieres. AutoCoder planifica la arquitectura, escribe la interfaz en React, conecta la lógica del backend y prepara una app desplegable en minutos.",
     "primaryCta": "Empieza gratis",
     "secondaryCta": "Ver documentación",
     "visualTitle": "Sesión de generación de AutoCoder",
-    "promptLabel": "Prompt",
+    "promptLabel": "Instrucción",
     "prompt": "Crea un panel de analítica multilingüe con autenticación, pagos, gráficos y administración.",
-    "status": "Generando app de producción",
+    "status": "Generando una app para producción",
     "files": ["app/[lang]/page.tsx", "components/dashboard.tsx", "prisma/schema.prisma", "api/billing/route.ts"],
     "codeLines": [
       "const app = await AutoCoder.generate({",
       "  framework: 'Next.js App Router',",
       "  ui: 'Tailwind + patrones shadcn',",
       "  auth: 'JWT + RBAC',",
-      "  deploy: 'lanzamiento cloud en un clic'",
+      "  deploy: 'lanzamiento en la nube en un clic'",
       "});"
     ],
     "metrics": [
@@ -43,20 +43,20 @@
     ]
   },
   "socialProof": {
-    "label": "Creado para founders, agencias, operadores y desarrolladores que lanzan con IA",
-    "logos": ["AI Team", "Workspace", "Plantillas", "SparkVibe", "Deploy en un clic"]
+    "label": "Creado para fundadores, agencias, operadores y desarrolladores que lanzan con IA",
+    "logos": ["Equipo de IA", "Workspace", "Plantillas", "SparkVibe", "Despliegue en un clic"]
   },
   "trustSignals": {
     "items": [
-      { "title": "AI Team", "description": "Ayuda de producto, arquitectura e ingeniería dentro de un solo flujo de ai app builder." },
+      { "title": "Equipo de IA", "description": "Ayuda de producto, arquitectura e ingeniería dentro de un solo flujo de constructor de apps con IA." },
       { "title": "Código exportable", "description": "Construye con IA y conserva control con exportación de código fuente y traspaso técnico." },
-      { "title": "Deploy y hosting", "description": "Publica en una URL activa, conecta un dominio personalizado y gestiona proyectos desde Workspace." }
+      { "title": "Despliegue y hosting", "description": "Publica en una URL activa, conecta un dominio personalizado y gestiona proyectos desde Workspace." }
     ]
   },
   "features": {
     "eyebrow": "Inteligencia de construcción",
-    "heading": "Todo lo que un ai app builder moderno necesita para enviar software real",
-    "description": "AutoCoder combina razonamiento de producto, generación full-stack y automatización de despliegue para pasar de idea a app validada sin perder control técnico.",
+    "heading": "Todo lo que un constructor de apps con IA moderno necesita para lanzar software real",
+    "description": "AutoCoder combina razonamiento de producto, generación full-stack y automatización de despliegue para pasar de idea a app validada sin perder control de ingeniería.",
     "items": [
       {
         "icon": "code",
@@ -71,7 +71,7 @@
       {
         "icon": "stack",
         "title": "Generación full-stack",
-        "description": "Genera frontend, backend, esquema de base de datos, autenticación y patrones RBAC coherentes desde un solo brief."
+        "description": "Genera frontend, backend, esquema de base de datos, autenticación y patrones RBAC coherentes desde una sola descripción."
       },
       {
         "icon": "language",
@@ -82,16 +82,16 @@
   },
   "howItWorks": {
     "eyebrow": "Del pensamiento al lanzamiento",
-    "heading": "Cómo funciona el ai app builder de AutoCoder",
+    "heading": "Cómo funciona el constructor de apps con IA de AutoCoder",
     "description": "Un flujo enfocado te mantiene al mando mientras la IA gestiona arquitectura repetitiva, boilerplate e integraciones.",
     "steps": [
       {
         "title": "Describe tu idea",
-        "description": "Escribe un brief, una lista de funciones o un flujo. AutoCoder extrae intención, roles de usuario y necesidades de datos."
+        "description": "Escribe una descripción, una lista de funciones o un flujo. AutoCoder extrae la intención, los roles de usuario y las necesidades de datos."
       },
       {
-        "title": "La IA genera el stack",
-        "description": "El ai app builder crea rutas Next.js, componentes React, estilos Tailwind, lógica backend y estructura de datos."
+        "title": "La IA genera la arquitectura",
+        "description": "El constructor de apps con IA crea rutas Next.js, componentes React, estilos Tailwind, lógica del backend y estructura de datos."
       },
       {
         "title": "Despliega al instante",
@@ -100,15 +100,15 @@
     ]
   },
   "templates": {
-    "eyebrow": "Plantillas listas para remix",
-    "heading": "Empieza tu proyecto de ai app builder desde un patrón de producto probado",
-    "description": "Usa plantillas como punto de partida para sitios, dashboards, herramientas internas y apps full-stack, y luego personaliza el producto con lenguaje natural.",
+    "eyebrow": "Plantillas listas para reutilizar",
+    "heading": "Empieza tu proyecto con un constructor de apps con IA desde un patrón de producto probado",
+    "description": "Usa plantillas como punto de partida para sitios, paneles, herramientas internas y apps full-stack, y luego personaliza el producto con lenguaje natural.",
     "cta": "Explorar plantillas",
     "items": [
       {
-        "title": "Dashboard analítico SaaS",
-        "description": "Autenticación, métricas, gráficos, pantallas de cobro y flujos admin para un producto de suscripción.",
-        "tags": ["Dashboard", "Pagos", "Admin"]
+        "title": "Panel analítico SaaS",
+        "description": "Autenticación, métricas, gráficos, pantallas de cobro y flujos de administración para un producto de suscripción.",
+        "tags": ["Panel", "Pagos", "Admin"]
       },
       {
         "title": "Herramienta operativa interna",
@@ -117,33 +117,33 @@
       },
       {
         "title": "Portal de clientes con IA",
-        "description": "Una app para usuarios con onboarding, asistencia IA, contenido de ayuda y UX lista para deploy.",
-        "tags": ["Portal", "IA", "Deploy"]
+        "description": "Una app para usuarios con incorporación, asistencia con IA, contenido de ayuda y experiencia lista para despliegue.",
+        "tags": ["Portal", "IA", "Despliegue"]
       }
     ]
   },
   "blogFeature": {
     "eyebrow": "Desde el blog de AutoCoder",
-    "heading": "Productos reales lanzados con el ai app builder de AutoCoder",
-    "description": "Explora historias breves de creación en food service, eventos en vivo y hospitalidad outdoor, cada una mostrando cómo una idea se convierte en una app pulida.",
+    "heading": "Productos reales lanzados con el constructor de apps con IA de AutoCoder",
+    "description": "Explora historias breves de creación en servicios gastronómicos, eventos en vivo y hospitalidad al aire libre, cada una mostrando cómo una idea se convierte en una app pulida.",
     "cta": "Leer el caso",
     "items": [
       {
-        "category": "Food service",
+        "category": "Servicios gastronómicos",
         "title": "CRM para food trucks y POS móvil",
-        "description": "Un flujo práctico de CRM, inventario, cola y punto de venta para equipos gastronómicos móviles.",
+        "description": "Un flujo práctico de CRM, inventario, cola y punto de venta para equipos de comida móvil.",
         "imageAlt": "Caso de CRM para food trucks creado con AutoCoder"
       },
       {
         "category": "Eventos en vivo",
         "title": "Sistema de reservas para noches de partido",
-        "description": "Un flujo de reservas y operaciones para sports bars, trivia nights y experiencias de alta demanda.",
+        "description": "Un flujo de reservas y operaciones para bares deportivos, noches de trivia y experiencias de alta demanda.",
         "imageAlt": "Caso de sistema de reservas para noches de partido creado con AutoCoder"
       },
       {
         "category": "Hospitalidad",
         "title": "App de reservas de camping multi-rol",
-        "description": "Una experiencia de camping reservable con descubrimiento, operaciones por rol y UX mobile-first.",
+        "description": "Una experiencia de camping reservable con descubrimiento, operaciones por rol y experiencia móvil prioritaria.",
         "imageAlt": "Caso de app de reservas de camping creada con AutoCoder"
       }
     ]
@@ -151,7 +151,7 @@
   "comparison": {
     "eyebrow": "Por qué AutoCoder",
     "heading": "Más que un chat de IA genérico, más rápido que el no-code tradicional",
-    "description": "AutoCoder une creación por prompt con estructura de producto, arquitectura de app, hosting y exportación para convertir ideas en software real.",
+    "description": "AutoCoder une creación por instrucciones con estructura de producto, arquitectura de app, hosting y exportación para convertir ideas en software real.",
     "columns": [
       {
         "title": "Chat de IA genérico",
@@ -162,26 +162,26 @@
         "description": "Funciona para flujos fijos, pero las apps complejas pueden chocar con límites de layout, lógica, base de datos y código."
       },
       {
-        "title": "AutoCoder ai app builder",
+        "title": "AutoCoder constructor de apps con IA",
         "description": "Describe el resultado, genera la estructura full-stack, previsualiza la app, despliega y exporta código cuando lo necesites."
       }
     ]
   },
   "plans": {
     "eyebrow": "Planes y créditos",
-    "heading": "Empieza gratis y escala tu flujo de ai app builder",
-    "description": "AutoCoder admite rutas gratuitas y de pago con créditos para builds, publicación e iteración. Elige el flujo según tu etapa.",
+    "heading": "Empieza gratis y escala tu flujo de constructor de apps con IA",
+    "description": "AutoCoder admite rutas gratuitas y de pago con créditos para compilaciones, publicación e iteración. Elige el flujo según tu etapa.",
     "cta": "Ver planes oficiales",
     "items": [
       {
         "title": "Prueba gratis",
-        "description": "Explora prompts, generación de apps, vistas previas, plantillas y los primeros flujos de producto.",
-        "features": ["Probar el builder", "Previsualizar apps", "Usar plantillas"]
+        "description": "Explora instrucciones, generación de apps, vistas previas, plantillas y los primeros flujos de producto.",
+        "features": ["Probar el constructor", "Previsualizar apps", "Usar plantillas"]
       },
       {
-        "title": "Builder",
-        "description": "Para founders y makers que convierten prompts en apps, landing pages, dashboards y workflows desplegables.",
-        "features": ["Más créditos", "Deploy y hosting", "Exportar código"]
+        "title": "Constructor",
+        "description": "Para fundadores y creadores que convierten instrucciones en apps, landing pages, paneles y flujos de trabajo desplegables.",
+        "features": ["Más créditos", "Despliegue y hosting", "Exportar código"]
       },
       {
         "title": "Workspace de equipo",
@@ -192,40 +192,40 @@
   },
   "faq": {
     "eyebrow": "FAQ",
-    "heading": "Preguntas sobre usar AutoCoder como ai app builder",
+    "heading": "Preguntas sobre usar AutoCoder como constructor de apps con IA",
     "items": [
       {
         "question": "¿Qué puedo construir con AutoCoder?",
-        "answer": "Puedes crear sitios web, apps web, dashboards, herramientas internas, portales de clientes y otros productos listos para producción desde prompts."
+        "answer": "Puedes crear sitios web, apps web, paneles, herramientas internas, portales de clientes y otros productos listos para producción desde instrucciones."
       },
       {
         "question": "¿Necesito saber programar?",
-        "answer": "No. AutoCoder está pensado para founders, operadores y desarrolladores que quieren flujos guiados por IA con control técnico cuando lo necesiten."
+        "answer": "No. AutoCoder está pensado para fundadores, operadores y desarrolladores que quieren flujos guiados por IA con control técnico cuando lo necesiten."
       },
       {
         "question": "¿Puedo desplegar y alojar mi proyecto?",
-        "answer": "Sí. AutoCoder permite publicar proyectos en URLs activas, usar flujos de deploy y hosting, conectar dominios personalizados y gestionar proyectos en Workspace."
+        "answer": "Sí. AutoCoder permite publicar proyectos en URLs activas, usar flujos de despliegue y hosting, conectar dominios personalizados y gestionar proyectos en Workspace."
       },
       {
         "question": "¿Puedo exportar el código fuente?",
-        "answer": "Sí. La documentación de AutoCoder describe exportación de código fuente para integrar builds generadas por IA en tu flujo de ingeniería."
+        "answer": "Sí. La documentación de AutoCoder describe exportación de código fuente para integrar compilaciones generadas por IA en tu flujo de ingeniería."
       }
     ]
   },
   "finalCta": {
     "eyebrow": "Construye mientras la idea sigue fresca",
-    "heading": "Empieza con el ai app builder creado para velocidad de producto real",
-    "description": "AutoCoder ayuda a founders, agencias y equipos internos a convertir prompts ambiciosos en apps planificadas, implementadas y listas para usuarios.",
+    "heading": "Empieza con el constructor de apps con IA creado para velocidad de producto real",
+    "description": "AutoCoder ayuda a fundadores, agencias y equipos internos a convertir instrucciones ambiciosas en apps planificadas, implementadas y listas para usuarios.",
     "primaryCta": "Empezar a crear",
     "secondaryCta": "Ver demo"
   },
   "footer": {
-    "tagline": "AutoCoder convierte ideas en apps listas para producción con un flujo de ai app builder pensado para desarrolladores.",
+    "tagline": "AutoCoder convierte ideas en apps listas para producción con un flujo de constructor de apps con IA pensado para desarrolladores.",
     "columns": [
       {
         "title": "Producto",
         "links": [
-          { "label": "AI builder", "href": "home" },
+          { "label": "Constructor con IA", "href": "home" },
           { "label": "Despliegues", "href": "home" },
           { "label": "Plantillas", "href": "templates" },
           { "label": "Integraciones", "href": "home" }
