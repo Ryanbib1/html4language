@@ -49,7 +49,7 @@
   "trustSignals": {
     "items": [
       { "title": "Equipo de IA", "description": "Ayuda de producto, arquitectura e ingeniería dentro de un solo flujo de constructor de apps con IA." },
-      { "title": "Código exportable", "description": "Construye con IA y conserva control con exportación de código fuente y traspaso técnico." },
+      { "title": "Código exportable", "description": "Los planes de pago incluyen exportación de código fuente para traspaso técnico y control a largo plazo." },
       { "title": "Despliegue y hosting", "description": "Publica en una URL activa, conecta un dominio personalizado y gestiona proyectos desde Workspace." }
     ]
   },
@@ -112,7 +112,7 @@
       },
       {
         "title": "Herramienta operativa interna",
-        "description": "Un workspace seguro para gestionar aprobaciones, registros, tareas y flujos de clientes.",
+        "description": "Un workspace seguro para gestionar aprobaciones, registros, tareas y flujos operativos.",
         "tags": ["Interno", "RBAC", "Datos"]
       },
       {
@@ -151,7 +151,7 @@
   "comparison": {
     "eyebrow": "Por qué AutoCoder",
     "heading": "Más que un chat de IA genérico, más rápido que el no-code tradicional",
-    "description": "AutoCoder une creación por instrucciones con estructura de producto, arquitectura de app, hosting y exportación para convertir ideas en software real.",
+    "description": "AutoCoder une creación por instrucciones con estructura de producto, arquitectura de app, hosting y exportación en planes de pago para convertir ideas en software real.",
     "columns": [
       {
         "title": "Chat de IA genérico",
@@ -163,14 +163,14 @@
       },
       {
         "title": "AutoCoder constructor de apps con IA",
-        "description": "Describe el resultado, genera la estructura full-stack, previsualiza la app, despliega y exporta código cuando lo necesites."
+        "description": "Describe el resultado, genera la estructura full-stack, previsualiza la app, despliega y exporta código fuente en planes de pago."
       }
     ]
   },
   "plans": {
     "eyebrow": "Planes y créditos",
     "heading": "Empieza gratis y escala tu flujo de constructor de apps con IA",
-    "description": "AutoCoder admite rutas gratuitas y de pago con créditos para compilaciones, publicación e iteración. Elige el flujo según tu etapa.",
+    "description": "AutoCoder admite rutas gratuitas y de pago con créditos para compilaciones, publicación e iteración. Los planes de pago desbloquean exportación de código fuente y más opciones de dominio.",
     "cta": "Ver planes oficiales",
     "items": [
       {
@@ -181,11 +181,11 @@
       {
         "title": "Constructor",
         "description": "Para fundadores y creadores que convierten instrucciones en apps, landing pages, paneles y flujos de trabajo desplegables.",
-        "features": ["Más créditos", "Despliegue y hosting", "Exportar código"]
+        "features": ["Más créditos", "Despliegue y hosting", "Exportación de código en planes de pago"]
       },
       {
         "title": "Workspace de equipo",
-        "description": "Para agencias y equipos de producto que gestionan varias apps, clientes, dominios e iteraciones.",
+        "description": "Para agencias y equipos de producto que gestionan varias apps, proyectos, dominios e iteraciones.",
         "features": ["Workspace central", "Historial de proyectos", "Dominios personalizados"]
       }
     ]
@@ -208,7 +208,7 @@
       },
       {
         "question": "¿Puedo exportar el código fuente?",
-        "answer": "Sí. La documentación de AutoCoder describe exportación de código fuente para integrar compilaciones generadas por IA en tu flujo de ingeniería."
+        "answer": "Sí. La exportación de código fuente está disponible en planes de pago. El plan gratuito no incluye exportación de código fuente."
       }
     ]
   },
@@ -235,9 +235,9 @@
         "title": "Recursos",
         "links": [
           { "label": "Documentación", "href": "docs" },
-          { "label": "Guía API", "href": "docs" },
-          { "label": "Blog", "href": "blog" },
-          { "label": "Cambios", "href": "blog" }
+          { "label": "Construcción", "href": "build" },
+          { "label": "Despliegue y hosting", "href": "deploy" },
+          { "label": "Blog", "href": "blog" }
         ]
       },
       {
@@ -245,7 +245,7 @@
         "links": [
           { "label": "Nosotros", "href": "home" },
           { "label": "Carreras", "href": "home" },
-          { "label": "Clientes", "href": "home" },
+          { "label": "Casos de uso", "href": "home" },
           { "label": "Contacto", "href": "home" }
         ]
       },

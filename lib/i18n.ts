@@ -56,6 +56,14 @@ export function getAutoCoderHref(target: string, locale: Locale) {
     return "https://www.autocoder.cc/docs";
   }
 
+  if (target === "build") {
+    return "https://www.autocoder.cc/docs/build";
+  }
+
+  if (target === "deploy") {
+    return "https://www.autocoder.cc/docs/deploy-and-hosting";
+  }
+
   if (target in autoCoderSocialUrls) {
     return autoCoderSocialUrls[target as keyof typeof autoCoderSocialUrls];
   }

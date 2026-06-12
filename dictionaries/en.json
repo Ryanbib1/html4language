@@ -49,7 +49,7 @@
   "trustSignals": {
     "items": [
       { "title": "AI Team", "description": "Product manager, architect, and engineering assistance in one ai app builder workflow." },
-      { "title": "Exportable code", "description": "Build with AI, then keep control with source-code export and developer-friendly handoff." },
+      { "title": "Exportable code", "description": "Paid plans include source-code export for developer-friendly handoff and long-term ownership." },
       { "title": "Deploy & host", "description": "Publish to a live URL, connect a custom domain, and manage projects from Workspace." }
     ]
   },
@@ -112,7 +112,7 @@
       },
       {
         "title": "Internal operations tool",
-        "description": "A secure workspace for teams to manage approvals, records, tasks, and customer workflows.",
+        "description": "A secure workspace for teams to manage approvals, records, tasks, and operational workflows.",
         "tags": ["Internal tool", "RBAC", "Data"]
       },
       {
@@ -151,7 +151,7 @@
   "comparison": {
     "eyebrow": "Why AutoCoder",
     "heading": "More than generic AI chat, faster than traditional no-code",
-    "description": "AutoCoder combines prompt-driven creation with product structure, app architecture, hosting, and export paths so your idea can become real software.",
+    "description": "AutoCoder combines prompt-driven creation with product structure, app architecture, hosting, and paid export paths so your idea can become real software.",
     "columns": [
       {
         "title": "Generic AI chat",
@@ -163,14 +163,14 @@
       },
       {
         "title": "AutoCoder ai app builder",
-        "description": "Describe the outcome, generate the full-stack structure, preview the app, deploy it, and export code when needed."
+        "description": "Describe the outcome, generate the full-stack structure, preview the app, deploy it, and export source code on paid plans."
       }
     ]
   },
   "plans": {
     "eyebrow": "Plans & credits",
     "heading": "Start free, then scale your ai app builder workflow",
-    "description": "AutoCoder supports free and paid paths with credits for builds, publishing, and iteration. Choose the workflow that matches your stage.",
+    "description": "AutoCoder supports free and paid paths with credits for builds, publishing, and iteration. Paid plans unlock source-code export and expanded domain options.",
     "cta": "View official plans",
     "items": [
       {
@@ -181,11 +181,11 @@
       {
         "title": "Builder",
         "description": "For founders and makers turning prompts into deployable apps, landing pages, dashboards, and workflows.",
-        "features": ["More build credits", "Deploy and host", "Export source code"]
+        "features": ["More build credits", "Deploy and host", "Paid source-code export"]
       },
       {
         "title": "Team workspace",
-        "description": "For agencies and product teams managing multiple apps, clients, domains, and project iterations.",
+        "description": "For agencies and product teams managing multiple apps, projects, domains, and project iterations.",
         "features": ["Central Workspace", "Project history", "Custom domains"]
       }
     ]
@@ -208,7 +208,7 @@
       },
       {
         "question": "Can I export source code?",
-        "answer": "Yes. AutoCoder documentation describes source-code export so teams can move from AI-generated builds into their own engineering workflow."
+        "answer": "Yes. Source-code export is available on paid plans. The Free plan does not include source-code export."
       }
     ]
   },
@@ -235,9 +235,9 @@
         "title": "Resources",
         "links": [
           { "label": "Documentation", "href": "docs" },
-          { "label": "API guide", "href": "docs" },
-          { "label": "Blog", "href": "blog" },
-          { "label": "Changelog", "href": "blog" }
+          { "label": "Build", "href": "build" },
+          { "label": "Deploy & Hosting", "href": "deploy" },
+          { "label": "Blog", "href": "blog" }
         ]
       },
       {
@@ -245,7 +245,7 @@
         "links": [
           { "label": "About", "href": "home" },
           { "label": "Careers", "href": "home" },
-          { "label": "Customers", "href": "home" },
+          { "label": "Use cases", "href": "home" },
           { "label": "Contact", "href": "home" }
         ]
       },

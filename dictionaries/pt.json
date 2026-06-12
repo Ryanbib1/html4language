@@ -49,7 +49,7 @@
   "trustSignals": {
     "items": [
       { "title": "AI Team", "description": "Ajuda de produto, arquitetura e engenharia em um único fluxo de ai app builder." },
-      { "title": "Código exportável", "description": "Construa com IA e mantenha controle com exportação de código fonte e handoff técnico." },
+      { "title": "Código exportável", "description": "Planos pagos incluem exportação de código fonte para handoff técnico e controle de longo prazo." },
       { "title": "Deploy e hosting", "description": "Publique em uma URL ativa, conecte domínio personalizado e gerencie projetos no Workspace." }
     ]
   },
@@ -112,7 +112,7 @@
       },
       {
         "title": "Ferramenta interna de operações",
-        "description": "Um workspace seguro para equipes gerenciarem aprovações, registros, tarefas e fluxos de clientes.",
+        "description": "Um workspace seguro para equipes gerenciarem aprovações, registros, tarefas e fluxos operacionais.",
         "tags": ["Interno", "RBAC", "Dados"]
       },
       {
@@ -151,7 +151,7 @@
   "comparison": {
     "eyebrow": "Por que AutoCoder",
     "heading": "Mais que um chat de IA genérico, mais rápido que no-code tradicional",
-    "description": "AutoCoder combina criação por prompt com estrutura de produto, arquitetura de app, hosting e exportação para transformar ideias em software real.",
+    "description": "AutoCoder combina criação por prompt com estrutura de produto, arquitetura de app, hosting e exportação em planos pagos para transformar ideias em software real.",
     "columns": [
       {
         "title": "Chat de IA genérico",
@@ -163,14 +163,14 @@
       },
       {
         "title": "AutoCoder ai app builder",
-        "description": "Descreva o resultado, gere a estrutura full-stack, visualize a app, faça deploy e exporte código quando precisar."
+        "description": "Descreva o resultado, gere a estrutura full-stack, visualize a app, faça deploy e exporte código fonte nos planos pagos."
       }
     ]
   },
   "plans": {
     "eyebrow": "Planos e créditos",
     "heading": "Comece grátis e escale seu fluxo de ai app builder",
-    "description": "AutoCoder oferece caminhos gratuitos e pagos com créditos para builds, publicação e iteração. Escolha o fluxo ideal para sua etapa.",
+    "description": "AutoCoder oferece caminhos gratuitos e pagos com créditos para builds, publicação e iteração. Planos pagos liberam exportação de código fonte e mais opções de domínio.",
     "cta": "Ver planos oficiais",
     "items": [
       {
@@ -181,11 +181,11 @@
       {
         "title": "Builder",
         "description": "Para founders e makers transformando prompts em apps, landing pages, dashboards e workflows implantáveis.",
-        "features": ["Mais créditos", "Deploy e hosting", "Exportar código"]
+        "features": ["Mais créditos", "Deploy e hosting", "Exportação de código em planos pagos"]
       },
       {
         "title": "Workspace de equipe",
-        "description": "Para agências e equipes de produto gerenciando várias apps, clientes, domínios e iterações.",
+        "description": "Para agências e equipes de produto gerenciando várias apps, projetos, domínios e iterações.",
         "features": ["Workspace central", "Histórico de projetos", "Domínios personalizados"]
       }
     ]
@@ -208,7 +208,7 @@
       },
       {
         "question": "Posso exportar o código fonte?",
-        "answer": "Sim. A documentação da AutoCoder descreve exportação de código fonte para integrar builds geradas por IA ao seu fluxo de engenharia."
+        "answer": "Sim. A exportação de código fonte está disponível nos planos pagos. O plano gratuito não inclui exportação de código fonte."
       }
     ]
   },
@@ -235,9 +235,9 @@
         "title": "Recursos",
         "links": [
           { "label": "Documentação", "href": "docs" },
-          { "label": "Guia API", "href": "docs" },
-          { "label": "Blog", "href": "blog" },
-          { "label": "Changelog", "href": "blog" }
+          { "label": "Build", "href": "build" },
+          { "label": "Deploy e hosting", "href": "deploy" },
+          { "label": "Blog", "href": "blog" }
         ]
       },
       {
@@ -245,7 +245,7 @@
         "links": [
           { "label": "Sobre", "href": "home" },
           { "label": "Carreiras", "href": "home" },
-          { "label": "Clientes", "href": "home" },
+          { "label": "Casos de uso", "href": "home" },
           { "label": "Contato", "href": "home" }
         ]
       },

@@ -49,7 +49,7 @@
   "trustSignals": {
     "items": [
       { "title": "AI Team", "description": "Assistance produit, architecture et ingénierie dans un seul workflow ai app builder." },
-      { "title": "Code exportable", "description": "Construisez avec l'IA puis gardez le contrôle via export du code source et handoff développeur." },
+      { "title": "Code exportable", "description": "Les plans payants incluent l'export du code source pour le handoff développeur et la maîtrise à long terme." },
       { "title": "Deploy et hosting", "description": "Publiez vers une URL active, connectez un domaine personnalisé et gérez vos projets dans Workspace." }
     ]
   },
@@ -112,7 +112,7 @@
       },
       {
         "title": "Outil interne d'opérations",
-        "description": "Un workspace sécurisé pour gérer validations, enregistrements, tâches et workflows client.",
+        "description": "Un workspace sécurisé pour gérer validations, enregistrements, tâches et workflows opérationnels.",
         "tags": ["Interne", "RBAC", "Données"]
       },
       {
@@ -151,7 +151,7 @@
   "comparison": {
     "eyebrow": "Pourquoi AutoCoder",
     "heading": "Plus qu'un chat IA générique, plus rapide que le no-code traditionnel",
-    "description": "AutoCoder combine création par prompt, structure produit, architecture d'app, hosting et export pour transformer une idée en vrai logiciel.",
+    "description": "AutoCoder combine création par prompt, structure produit, architecture d'app, hosting et export sur plans payants pour transformer une idée en vrai logiciel.",
     "columns": [
       {
         "title": "Chat IA générique",
@@ -163,14 +163,14 @@
       },
       {
         "title": "AutoCoder ai app builder",
-        "description": "Décrivez le résultat, générez la structure full-stack, prévisualisez l'app, déployez et exportez le code si nécessaire."
+        "description": "Décrivez le résultat, générez la structure full-stack, prévisualisez l'app, déployez et exportez le code source sur les plans payants."
       }
     ]
   },
   "plans": {
     "eyebrow": "Plans et crédits",
     "heading": "Commencez gratuitement puis faites évoluer votre workflow ai app builder",
-    "description": "AutoCoder propose des parcours gratuits et payants avec crédits pour builds, publication et itération. Choisissez selon votre stade.",
+    "description": "AutoCoder propose des parcours gratuits et payants avec crédits pour builds, publication et itération. Les plans payants débloquent l'export du code source et davantage d'options de domaine.",
     "cta": "Voir les plans officiels",
     "items": [
       {
@@ -181,11 +181,11 @@
       {
         "title": "Builder",
         "description": "Pour fondateurs et makers transformant des prompts en apps, landing pages, dashboards et workflows déployables.",
-        "features": ["Plus de crédits", "Deploy et hosting", "Exporter le code"]
+        "features": ["Plus de crédits", "Deploy et hosting", "Export du code sur plans payants"]
       },
       {
         "title": "Workspace d'équipe",
-        "description": "Pour agences et équipes produit qui gèrent plusieurs apps, clients, domaines et itérations.",
+        "description": "Pour agences et équipes produit qui gèrent plusieurs apps, projets, domaines et itérations.",
         "features": ["Workspace central", "Historique projets", "Domaines personnalisés"]
       }
     ]
@@ -208,7 +208,7 @@
       },
       {
         "question": "Puis-je exporter le code source ?",
-        "answer": "Oui. La documentation AutoCoder décrit l'export de code source pour intégrer les builds IA dans votre workflow d'ingénierie."
+        "answer": "Oui. L'export du code source est disponible sur les plans payants. Le plan gratuit n'inclut pas l'export du code source."
       }
     ]
   },
@@ -235,9 +235,9 @@
         "title": "Ressources",
         "links": [
           { "label": "Documentation", "href": "docs" },
-          { "label": "Guide API", "href": "docs" },
-          { "label": "Blog", "href": "blog" },
-          { "label": "Changelog", "href": "blog" }
+          { "label": "Build", "href": "build" },
+          { "label": "Deploy & Hosting", "href": "deploy" },
+          { "label": "Blog", "href": "blog" }
         ]
       },
       {
@@ -245,7 +245,7 @@
         "links": [
           { "label": "À propos", "href": "home" },
           { "label": "Carrières", "href": "home" },
-          { "label": "Clients", "href": "home" },
+          { "label": "Cas d'usage", "href": "home" },
           { "label": "Contact", "href": "home" }
         ]
       },
